@@ -3,6 +3,7 @@
 <!-- PROJECT SHIELDS -->
 <div align="center">
 
+[![Persian Documentation](https://img.shields.io/badge/مستندات-فارسی-green.svg?style=for-the-badge)](README_FA.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 [![Rust Version](https://img.shields.io/badge/Rust-2021_Edition-DEA584.svg?style=for-the-badge&logo=rust&logoColor=white)](https://www.rust-lang.org/)
 [![Dynamics](https://img.shields.io/badge/Vehicle_Dynamics-2--DOF_Bicycle-blue.svg?style=for-the-badge)](https://github.com/ArdavanGhal-Eh/ev-powertrain-torque-vectoring-rust)
