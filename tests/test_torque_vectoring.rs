@@ -1,4 +1,4 @@
-use ev_powertrain_torque_vectoring_rust::{
+use torque_vectoring::{
     PacejkaTire, TorqueVectoringController, VehicleDynamics, VehicleParameters, VehicleState,
 };
 
