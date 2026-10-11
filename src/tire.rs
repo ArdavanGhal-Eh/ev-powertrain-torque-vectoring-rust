@@ -30,7 +30,6 @@ impl PacejkaTire {
         let alpha = slip_angle_rad;
         let b_alpha = b * alpha;
         let phi = (1.0 - e) * b_alpha + e * b_alpha.atan();
-        let force = peak_d * (c * phi.atan()).sin();
-        force
+        peak_d * (c * phi.atan()).sin()
     }
 }
