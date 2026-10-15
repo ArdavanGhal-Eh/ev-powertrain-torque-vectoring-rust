@@ -99,9 +99,3 @@ impl TorqueVectoringController {
         }
     }
 }
-
-impl Default for TorqueVectoringController {
-    fn default() -> Self {
-        Self::new()
-    }
-}
