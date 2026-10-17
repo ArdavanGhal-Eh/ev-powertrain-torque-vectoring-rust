@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 
 def plot_torque_vectoring_response():
     t = np.linspace(0, 2.0, 400)
-    
+
     # Steering input: double lane change
     steer_deg = 4.5 * np.sin(2 * np.pi * t / 1.5)
     steer_deg[t > 1.5] = 0.0
