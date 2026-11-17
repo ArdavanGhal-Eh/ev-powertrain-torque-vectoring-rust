@@ -1,5 +1,8 @@
 # 🏎️ High-Performance Dual-Motor EV Dynamic Torque Vectoring & Stability Controller (Rust + Python)
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT) [![CI](https://img.shields.io/badge/CI-Passing-brightgreen.svg)]() [![Language](https://img.shields.io/badge/Language-Rust-orange.svg)]()
+
+
 A high-performance vehicle dynamics and electronic stability controller for dual-motor electric vehicle powertrains developed in **Rust** with analytical **Python** handling visualizers. Implements 2-DOF non-linear bicycle handling equations, Pacejka '96 Magic Formula tire friction modeling, and Direct Yaw Moment Control (DYC) to suppress high-speed understeer/oversteer under 5 microseconds per execution tick.
 
 ---
@@ -104,6 +107,6 @@ python plot_torque_vectoring.py
 ---
 
 ## 👨‍💻 Author
-**Ardavan Ghal-Eh**  
-Mechanical Engineering Student, Sharif University of Technology  
+**Ardavan Ghal-Eh**
+Mechanical Engineering Student, Sharif University of Technology
 *Focus: Vehicle Dynamics, Chassis Control & High-Performance Embedded Software*
